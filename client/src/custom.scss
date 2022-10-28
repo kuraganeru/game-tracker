@@ -1,0 +1,18 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// $cust-pos: (
+//     "25": 25%
+// );
+
+// $position-values: map-merge($position-values, $cust-pos);
+
+// $primary: teal;
+
+$custom-colors: (
+  "custom-color": #1d1d9b
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
